@@ -61,9 +61,11 @@ const FeatureBarChart = ({ data, selectedFeature, onSelectFeature }: FeatureBarC
                   backgroundColor: "hsl(222, 40%, 10%)",
                   border: "1px solid hsl(222, 30%, 18%)",
                   borderRadius: "8px",
-                  color: "hsl(210, 40%, 92%)",
+                  color: "#ffffff",
                   fontSize: 12,
                 }}
+                labelStyle={{ color: "#ffffff" }}
+                itemStyle={{ color: "#ffffff" }}
               />
               <Bar dataKey="count" radius={[6, 6, 0, 0]} cursor="pointer">
                 {data.map((entry, index) => (

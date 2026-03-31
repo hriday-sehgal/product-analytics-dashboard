@@ -6,32 +6,32 @@
 
 @layer base {
   :root {
-    --background: 222 47% 6%;
-    --foreground: 210 40% 92%;
+    --background: 0 0% 100%;
+    --foreground: 222 47% 6%;
 
-    --card: 222 40% 10%;
-    --card-foreground: 210 40% 92%;
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 6%;
 
-    --popover: 222 40% 10%;
-    --popover-foreground: 210 40% 92%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 6%;
 
     --primary: 199 89% 48%;
-    --primary-foreground: 222 47% 6%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 222 30% 16%;
-    --secondary-foreground: 210 40% 85%;
+    --secondary: 210 40% 96%;
+    --secondary-foreground: 222 47% 6%;
 
-    --muted: 222 30% 14%;
-    --muted-foreground: 215 16% 55%;
+    --muted: 210 40% 96%;
+    --muted-foreground: 215 16% 35%;
 
     --accent: 160 84% 39%;
-    --accent-foreground: 222 47% 6%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 72% 51%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 222 30% 18%;
-    --input: 222 30% 18%;
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
     --ring: 199 89% 48%;
 
     --radius: 0.75rem;
@@ -42,13 +42,13 @@
     --chart-4: 280 65% 60%;
     --chart-5: 346 77% 50%;
 
-    --sidebar-background: 222 40% 8%;
-    --sidebar-foreground: 210 40% 85%;
+    --sidebar-background: 0 0% 100%;
+    --sidebar-foreground: 222 47% 6%;
     --sidebar-primary: 199 89% 48%;
-    --sidebar-primary-foreground: 222 47% 6%;
-    --sidebar-accent: 222 30% 14%;
-    --sidebar-accent-foreground: 210 40% 85%;
-    --sidebar-border: 222 30% 18%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 210 40% 96%;
+    --sidebar-accent-foreground: 222 47% 6%;
+    --sidebar-border: 214 32% 91%;
     --sidebar-ring: 199 89% 48%;
 
     --font-display: 'JetBrains Mono', monospace;

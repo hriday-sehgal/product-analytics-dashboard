@@ -1,3 +1,3 @@
-# Welcome to your Lovable project
+# Feature Insights Dashboard
 
-TODO: Document your project here
+This project is a React + Vite dashboard for exploring feature usage and click analytics. Update this README with setup instructions, environment variables, and deployment notes for your own use.
