@@ -83,12 +83,12 @@ const Dashboard = () => {
   return (
     <div className="min-h-screen bg-background">
       {/* Header */}
-      <header className="border-b border-border/50 px-6 py-4">
-        <div className="max-w-7xl mx-auto flex items-center justify-between">
-          <h1 className="text-xl font-display font-bold text-gradient tracking-tight">
+      <header className="border-b border-border/50 px-4 sm:px-6 py-4">
+        <div className="max-w-7xl mx-auto flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+          <h1 className="text-lg sm:text-xl font-display font-bold text-gradient tracking-tight">
             Product Analytics
           </h1>
-          <div className="flex items-center gap-2">
+          <div className="flex flex-wrap items-center gap-2">
             <Button variant="outline" size="sm" onClick={handleSeed} disabled={seeding}>
               <Database className="h-3.5 w-3.5 mr-1.5" />
               {seeding ? "Seeding..." : "Seed Data"}
@@ -106,7 +106,7 @@ const Dashboard = () => {
       </header>
 
       {/* Content */}
-      <main className="max-w-7xl mx-auto p-6 space-y-6">
+      <main className="max-w-7xl mx-auto p-4 sm:p-6 space-y-6">
         {/* Filters */}
         <div className="glass-card p-5">
           <FilterBar filters={filters} onChange={handleFiltersChange} />

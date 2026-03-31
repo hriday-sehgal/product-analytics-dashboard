@@ -99,13 +99,13 @@ const FilterBar = ({ filters, onChange }: FilterBarProps) => {
 
   return (
     <div className="space-y-3">
-      <div className="flex flex-wrap gap-4 items-start justify-between">
+      <div className="flex flex-col gap-4 sm:flex-row sm:flex-wrap sm:items-start sm:justify-between">
         <Popover open={dateOpen} onOpenChange={setDateOpen}>
           <PopoverTrigger asChild>
             <Button
               variant="outline"
               className={cn(
-                "w-[420px] justify-start text-left font-normal",
+                "w-full sm:w-[420px] justify-start text-left font-normal",
                 (!filters.startDate || !filters.endDate) && "text-muted-foreground"
               )}
             >
@@ -114,9 +114,9 @@ const FilterBar = ({ filters, onChange }: FilterBarProps) => {
             </Button>
           </PopoverTrigger>
 
-          <PopoverContent className="w-[640px] p-0" align="start">
-            <div className="flex">
-              <div className="w-[170px] border-r p-3 space-y-1.5">
+          <PopoverContent className="w-full max-w-[95vw] sm:w-[640px] p-0" align="start">
+            <div className="flex flex-col sm:flex-row">
+              <div className="w-full sm:w-[170px] border-b sm:border-b-0 sm:border-r p-3 space-y-1.5">
                 <button
                   type="button"
                   className={cn(
@@ -175,7 +175,7 @@ const FilterBar = ({ filters, onChange }: FilterBarProps) => {
                 </button>
               </div>
 
-              <div className="p-3 flex-1">
+              <div className="p-3 flex-1 min-w-0">
                 <Calendar
                   mode="range"
                   selected={{ from: tempFrom, to: tempTo }}

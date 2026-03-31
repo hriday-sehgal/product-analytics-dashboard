@@ -215,8 +215,7 @@ Basic steps:
    - `VITE_SUPABASE_REDIRECT_URL`
 3. Make sure your Supabase **Allowed Redirect URLs** and **CORS** settings include your production domain.
 
-> Once deployed, add the **public URL** here for the reviewer:
-> - Live demo: `https://<your-frontend-host>.com`
+> - Live demo: "https://product-analytics-dashboard-iota.vercel.app/"
 
 ---
 
